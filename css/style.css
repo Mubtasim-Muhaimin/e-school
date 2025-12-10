@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+/* common css start  */
+:root{
+    --red: #FD511A;
+    --green: #21B573;
+    --bg_col: #F0FFF0;
+    --bg_box: #F8FFFB;
+    --heading_color:  #413960;
+    --box_p: #585859;
+    --foot_bg: #282531;
+    --black: #000000;
+    --wht: #FFFFFF;
+    --ash: #6C6B6B;
+    --pop: "Poppins", sans-serif;
+    --rbk: "Rubik", sans-serif;
+    --robo: "Roboto", sans-serif;
+}
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+}
+.h3_cm{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--heading_color);
+}
+/* common css end */
+/* header start  */
+header{
+    background-color: var(--bg_col);
+}
+.logo{
+
+}
+.n_btn{
+
+}
+.menu{
+    
+}
+.menu ul{
+
+}
+.menu ul li{
+
+}
+.menu ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black) !important;
+    padding: 0 30px !important;
+
+}
+.menu ul li a:hover{
+    color: var(--red) !important;
+}
+
+.btn_menu{
+    margin-left: 15px;
+    padding: 12px 24px;
+    
+}
+.btn_cm{
+    background-color: var(--green);
+    border-radius: 33px;
+    padding-left: 25px !important;
+    font-family: var(--robo);
+    color: var(--wht) !important;
+}
+.btn_cm:hover{
+    background-color: var(--red);
+    color: var(--wht) !important;
+}
+
+
+/* header end */
+/* banner start  */
+.banner{
+    background-color: var(--bg_col);
+    padding-bottom: 65px;
+}
+.b_text{
+}
+.b_p1{
+    color: var(--red);
+}
+.b_h1{
+    margin: 10px 100px 20px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+
+}
+.b_h1 span{
+    color: var(--green);
+}
+.b_p2{
+    line-height: 36px;
+
+}
+.btn_get{
+    margin-top: 15px;
+    padding: 12px 36px;
+}
+.b_img{
+    
+}
+/* banner end  */
+/* detailes start  */
+.detail{
+    
+}
+.d_col{
+    text-align: center;
+}
+.d_box{
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 55px 0 50px 0;
+    background-color: var(--bg_box);
+    transition: .3s linear;
+}
+.d_box:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    background-color: #fff;
+
+}
+.d_img{
+
+}
+
+.d_h3{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.d_p{
+    color: var(--box_p);
+}
+/* detailes end */
+/* courses start  */
+.course{
+}
+.c_box{
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+    padding: 25px 20px 0;
+}
+.c_img{
+    border-radius: 11px;
+    
+}
+.c_h2{
+    margin: 100px 0 60px 0;
+    font-weight: 700;
+    font-size: 36px !important;
+    color: var(--heading_color);
+}
+.c_btn{
+    padding: 8px 28px;
+    margin: 20px 0 30px 0;
+}
+/* courses  end*/
+/* testimonial start  */
+.testimonial{
+    margin-bottom: 80px;
+}
+.t_h2{
+    margin: 50px 0 50px 0;
+}
+.t_p{
+    
+}
+/* testimonial end */
+/* footer top start  */
+.footer_top{
+    padding: 55px 0 55px;
+    background-color: var(--foot_bg);
+}
+    
+.ft_details {
+    padding-right: 200px;
+    color: var(--wht);
+} 
+.ft_details p{
+    
+}
+.ft_links{
+
+}
+.ft_links h2{
+    margin-bottom: 8px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--wht);
+    line-height: 30px;;
+}
+
+.ft_links ul li a{
+    margin-bottom: 8px;
+    display: block;
+    text-decoration: none;
+    color: var(--wht);
+}
+/* footer top end */
+/* footer start  */
+footer{
+    background-color: var(--foot_bg);
+}
+footer p{
+    color: var(--wht);
+}
+footer p a{
+    text-decoration: none;
+    color: var(--wht);
+}
+/* footer end */
